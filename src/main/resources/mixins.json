@@ -2,10 +2,11 @@
   "required": true,
   "minVersion": "0.8",
   "package": "me.spacety.terminatormod.mixin",
+  "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "EnderManEntityMixin"
+    "EndermanEntityMixin"
   ],
-  "client": [
-    "EnderManEntityMixinClient"
-  ]
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
